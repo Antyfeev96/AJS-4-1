@@ -1,6 +1,5 @@
 import checkHealthStatus from '../app';
 
-
 test('should be healthy status', () => {
   const healthStatus = checkHealthStatus({ name: 'Dima', health: 75 });
   expect(healthStatus).toBe('healthy');
